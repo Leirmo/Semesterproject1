@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #a6a6a6;
+}
+/*Header*/
+header {
+  display: flex;
+  background-color: #1d1d1d;
+}
+
+nav,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+nav {
+  position: absolute;
+  left: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: block;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #1d1d1d;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 180px;
+}
+
+nav ul li ul a {
+  padding: 10px 10px 10px 10px;
+}
+
+nav ul li ul a:hover {
+  background-color: aquamarine;
+}
+
+nav ul li a {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+}
+/*Homepage*/
+.welcome_content {
+  display: flex;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.welcome_content > * {
+  flex: 1;
+  margin: 20px;
+}
+
+.welcome_img {
+  width: 500px;
+}
+
+.info_content {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.info_content div {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #592e15;
+  margin: 40px 10px;
+  padding: 10px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.info_content > * {
+  flex: 1;
+}
+
+.event {
+  background-image: url(/images/mavis-cw-164128.jpg);
+  background-size: cover;
+  opacity: 50%;
+}
+
+.event_content {
+  max-width: 1000px;
+  margin: auto;
+  opacity: 100%;
+  display: flex;
+}
+
+.event_content div {
+  flex: 1;
+}
+
+.event_img {
+  width: 200px;
+}
+
+@media (min-width: 600px) {
+  nav {
+    display: block;
+    position: static;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+}
