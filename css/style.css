@@ -113,6 +113,10 @@ nav ul li a {
   color: #fff;
 }
 
+.event h2 {
+  text-align: center;
+}
+
 .event_content {
   max-width: 1000px;
   margin: auto;
