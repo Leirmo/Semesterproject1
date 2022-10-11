@@ -19,9 +19,9 @@
       ></label>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li>
-            <a href="#">Exibition Space</a>
+            <a href="#">Exibition Space <i class="fa-solid fa-chevron-down"></i></a>
             <ul>
               <li><a href="index.html">Cosmology</a></li>
               <li><a href="index.html">Evolution</a></li>
@@ -34,9 +34,22 @@
           <li><a href="index.html">Special events and Exibition</a></li>
           <li><a href="index.html">Get involved</a></li>
           <li>
-            <a href="index.html">Visit</a>
+            <a href="index.html">Visit <i class="fa-solid fa-chevron-down"></i></a>
             <ul>
-              <p>Some text</p>
+              <p class="hours">Hours
+                Monday: Closed
+                Tuesday: 10:00 – 16:00
+                Wednesday: 10:00 – 16:00
+                Thursday: 10:00 – 16:00
+                Friday: 10:00 – 19:00
+                Saturday: 9:00 – 16:00
+                Sunday: 9:00 – 13:00
+                </p>
+                <p>Admission
+                  The entrance is free for all. 
+                  There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. 
+                  If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
+                  </p>
             </ul>
           </li>
         </ul>
@@ -146,68 +159,88 @@
           </div>
         </div>
       </section>
-      <section class="get_involved">
+      <section class="involved">
         <h2>Get involved</h2>
-        <div>
-          <h2>Support</h2>
-          <p>
-            There are various ways you can support the museum. Donations are
-            very welcome and are an important way we keep this museum open and
-            accessible to the whole community. You can also support us by
-            donating items of interest to the museum’s collections. If you have
-            some item or collection that you think others would enjoy, please
-            let us know by contacting our Collections Department and they will
-            be able to assist you.
-          </p>
-        </div>
-        <div>
-          <h2>Volunteer</h2>
-          <p>
-            A number of people volunteer their time and effort to keep the
-            displays in good order and ready for visitors to come and enjoy.
-            Volunteering has its perks including getting to see behind the
-            scenes of a working museum, access to staff-only lectures, and a
-            monthly lunch where all staff and volunteers come together to
-            discuss ideas for future exhibits and strategies for the museum.
-          </p>
-        </div>
-        <div>
-          <h2>Internships</h2>
-          <p>
-            Are you interested in working in a museum? Do you enjoy the fun and
-            excitement of sharing the wonders of nature with people? Well you
-            could be just the right person to enjoy an internship at the museum.
-            You’ll be learning from a number of different academics and people
-            who are passionate about science and sharing it with the wider
-            community.
-          </p>
+        <div class="involved_content">
+          <div>
+            <h2>Support</h2>
+            <p>
+              There are various ways you can support the museum. Donations are
+              very welcome and are an important way we keep this museum open and
+              accessible to the whole community. You can also support us by
+              donating items of interest to the museum’s collections. If you have
+              some item or collection that you think others would enjoy, please
+              let us know by contacting our Collections Department and they will
+              be able to assist you.
+            </p>
+          </div>
+          <div>
+            <h2>Volunteer</h2>
+            <p>
+              A number of people volunteer their time and effort to keep the
+              displays in good order and ready for visitors to come and enjoy.
+              Volunteering has its perks including getting to see behind the
+              scenes of a working museum, access to staff-only lectures, and a
+              monthly lunch where all staff and volunteers come together to
+              discuss ideas for future exhibits and strategies for the museum.
+            </p>
+          </div>
+          <div>
+            <h2>Internships</h2>
+            <p>
+              Are you interested in working in a museum? Do you enjoy the fun and
+              excitement of sharing the wonders of nature with people? Well you
+              could be just the right person to enjoy an internship at the museum.
+              You’ll be learning from a number of different academics and people
+              who are passionate about science and sharing it with the wider
+              community.
+            </p>
+          </div>
         </div>
       </section>
-      <section>
-        <div>
-          <p>call</p>
-          <p>email</p>
-          <p>location</p>
-          <p>map</p>
+      <section class="contact">
+        <div class="contact_info">
+          <div class="contact_info_map">
+            <p><i class="fa-solid fa-phone fa-xl"></i>Call:<a href="tel">99999999</a></p>      
+            <p><i class="fa-regular fa-envelope fa-xl"></i>Email:<a href="email">something@examlpe.com</a></p>
+            <p><i class="fa-solid fa-location-dot fa-xl"></i>Location:<a href="map">Storgata 4</a></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927.0632918606192!2d6.94622093346103!3d62.30825089311979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4616a30145f9e837%3A0xfcc774718010031!2sSkinker%C3%A5dhuset%20Stranda!5e0!3m2!1sno!2sno!4v1665498861418!5m2!1sno!2sno" width="400" height="300" style="border:0;" style="border-radius:25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+          </div>
         </div>
-        <form>
-          <label for="name">Your name</label>
-          <input type="text" id="name" />
-          <label for="email">Email</label>
-          <input type="email" id="email" />
-          <label for="subject">Subjekt</label>
-          <input type="text" id="subject" />
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
-          <input type="submit" value="Send" class="cta" />
-        </form>
+        <fieldset>
+          <form>
+            <div class="name_email">
+              <div>
+                <label for="name">Your name</label>
+                <input type="text" id="name" />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+              </div>
+            </div>
+            <div>
+              <label for="subject">Subjekt</label>
+              <input type="text" id="subject" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Send" class="cta" />
+            </div>
+          </form>
+        </fieldset>
       </section>
-      <section>
+      <section class="follow">
         <h3>Follow us on social media</h3>
-        <p>facebook</p>
-        <p>tiktok</p>
-        <p>instagram</p>
-        <p>pinterest</p>
+        <div class="follow_content">
+          <a href="#"><i class="fa-brands fa-square-facebook fa-2xl">Facebook</i></a>
+          <a href="#"><i class="fa-brands fa-tiktok fa-2xl">TikTok</i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram fa-2xl">Instagram</i></a>
+          <a href="#"><i class="fa-brands fa-square-pinterest fa-2xl">Pinterest</i></a>
+        </div>
       </section>
     </main>
     <footer>@copywrith</footer>
