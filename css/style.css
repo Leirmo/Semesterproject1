@@ -294,6 +294,36 @@ footer {
   margin: 40px 0 0 0;
 }
 
+/*Cosmology*/
+.cosmo_img {
+  width: 1800px;
+  height: 300px;
+}
+
+.astroneut_img {
+  width: 500px;
+}
+
+.cosmology {
+  display: flex;
+  padding-top: 50px;
+  width: 1000px;
+  margin: auto;
+}
+
+.cosmology > * {
+  flex: 1;
+}
+
+.below {
+  width: 1000px;
+  margin: auto;
+}
+
+.image-below {
+  width: 400px;
+}
+
 @media (min-width: 600px) {
   nav {
     display: block;
