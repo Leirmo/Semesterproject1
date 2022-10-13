@@ -4,6 +4,10 @@ body {
   background: #a6a6a6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #fff;
 }
@@ -294,34 +298,51 @@ footer {
   margin: 40px 0 0 0;
 }
 
-/*Cosmology*/
-.cosmo_img {
-  width: 1800px;
-  height: 300px;
+
+/*Explore Kids*/
+.explore_header {
+  text-align: center;
+}
+.kids_reading{
+max-width: 1000px;
+margin: auto;
+display: flex;
 }
 
-.astroneut_img {
+.kids_reading p {
+  padding-right: 250px;
+}
+
+.kids_reading_img {
+  width:250px;
+}
+
+.museum_img {
   width: 500px;
 }
 
-.cosmology {
+.info_kids {
   display: flex;
-  padding-top: 50px;
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
 }
 
-.cosmology > * {
-  flex: 1;
+.exhibition_img {
+  width: 800px;
 }
 
-.below {
+.toy_img {
+  width: 300px;
+}
+
+.teacher {
   width: 1000px;
   margin: auto;
+  display: flex;
 }
 
-.image-below {
-  width: 400px;
+.teacher_img {
+  width: 300px;
 }
 
 @media (min-width: 600px) {
