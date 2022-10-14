@@ -1,7 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Kameron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Kameron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Kameron&family=Martel&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   background: #a6a6a6;
+}
+
+h1 {
+  font-family: Gentium Book Basic;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: kameron;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: kameron;
+  font-size: 20px;
+}
+
+p {
+  font-family: martel;
+  font-size: 16px;
 }
 
 html {
@@ -139,6 +163,7 @@ nav ul li ul p {
   max-width: 240px;
   border-radius: 25px;
   color: #fff;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .info_content,
@@ -211,7 +236,7 @@ nav ul li ul p {
   background-color: #592e15;
   border-radius: 25px;
   color: #fff;
-
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .contact_info p {
@@ -238,8 +263,8 @@ fieldset {
   color: #fff;
   display: flex;
   align-items: center;
-  
-
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 fieldset div {
@@ -296,53 +321,6 @@ footer {
   color: #fff;
   padding: 20px;
   margin: 40px 0 0 0;
-}
-
-
-/*Explore Kids*/
-.explore_header {
-  text-align: center;
-}
-.kids_reading{
-max-width: 1000px;
-margin: auto;
-display: flex;
-}
-
-.kids_reading p {
-  padding-right: 250px;
-}
-
-.kids_reading_img {
-  width:250px;
-}
-
-.museum_img {
-  width: 500px;
-}
-
-.info_kids {
-  display: flex;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.exhibition_img {
-  width: 800px;
-}
-
-.toy_img {
-  width: 300px;
-}
-
-.teacher {
-  width: 1000px;
-  margin: auto;
-  display: flex;
-}
-
-.teacher_img {
-  width: 300px;
 }
 
 @media (min-width: 600px) {
