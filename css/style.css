@@ -53,6 +53,10 @@ header {
   text-decoration: underline;
 }
 
+.hamburger-icon {
+  color: #fff;
+}
+
 nav,
 #menu-checkbox {
   display: none;
@@ -139,7 +143,7 @@ nav ul li ul p {
 }
 
 .welcome_img {
-  width: 600px;
+  width: 300px;
 }
 
 .info_content,
@@ -394,6 +398,10 @@ display: flex;
   .welcome_content {
     flex-direction: row;
   } 
+
+  .welcome_img {
+    width: 600px;
+  }
 
   .info_content,
 .involved_content {
