@@ -1,7 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Kameron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Kameron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Kameron&family=Martel&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   background: #a6a6a6;
+}
+
+h1 {
+  font-family: Gentium Book Basic;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: kameron;
+  font-size: 10px;
+}
+
+h3 {
+  font-family: kameron;
+  font-size: 10px;
+}
+
+p {
+  font-family: martel;
+  font-size: 7px;
 }
 
 html {
@@ -136,8 +160,8 @@ nav ul li ul p {
   justify-content: space-around;
   align-items: center;
   background-color: #592e15;
-  padding: 10px;
-  margin: 30px;
+  padding: 20px;
+  margin: 10px;
   max-width: 240px;
   border-radius: 25px;
   color: #fff;
@@ -214,7 +238,7 @@ nav ul li ul p {
   background-color: #592e15;
   border-radius: 25px;
   color: #fff;
-
+  margin: 50px;
 }
 
 .contact_info p {
@@ -346,6 +370,51 @@ display: flex;
 
 .teacher_img {
   width: 300px;
+}
+@media (min-width: 800px) {
+  h1 {
+    font-family: Gentium Book Basic;
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-family: kameron;
+    font-size: 25px;
+  }
+  
+  h3 {
+    font-family: kameron;
+    font-size: 16px;
+  }
+  
+  p {
+    font-family: martel;
+    font-size: 16px;
+  }
+  .welcome_content {
+    flex-direction: row;
+  } 
+
+  .info_content,
+.involved_content {
+  max-width: 1000px;
+}
+
+.event_content {
+  max-width: 1000px;
+}
+
+.event_content__section_1{
+  flex-direction: row;
+}
+
+.event_content__section_2 {
+  flex-direction: row-reverse;
+}
+
+.contact {
+  flex-direction: row;
+}
 }
 
 @media (min-width: 600px) {
