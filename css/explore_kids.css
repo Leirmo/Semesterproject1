@@ -1,0 +1,54 @@
+/*Explore Kids*/
+.explore_header {
+  text-align: center;
+  margin: 50px;
+}
+.kids_reading {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+.kids_reading p {
+  padding-right: 250px;
+}
+
+.kids_reading_img {
+  width: 250px;
+}
+
+.museum_img {
+  width: 500px;
+  height: 400px;
+}
+
+.info_kids {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.info_kids > * {
+  flex: 1;
+}
+
+.exhibition_img {
+  width: 600px;
+  padding-right: 100px;
+}
+
+.toy_img {
+  width: 300px;
+}
+
+.teacher {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+.teacher_img {
+  width: 300px;
+  padding-right: 100px;
+}
