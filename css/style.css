@@ -34,6 +34,11 @@ html {
 
 a {
   color: #fff;
+  text-decoration: none;
+  font-family: kameron;
+}
+span {
+  margin: 10px;
 }
 
 .cta {
@@ -41,6 +46,10 @@ a {
   padding: 10px 0px;
   margin: 10px 130px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cta:hover {
+  cursor: pointer;
 }
 
 /*Header*/
@@ -303,7 +312,7 @@ textarea {
 
 /*Follow*/
 .follow {
-  width: 1000px;
+  width: 600px;
   margin: auto;
   padding: 50px;
 }
@@ -316,6 +325,7 @@ textarea {
 .follow_content {
   display: flex;
   justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
 }
 
 .follow a {
@@ -330,52 +340,6 @@ footer {
   margin: 40px 0 0 0;
 }
 
-
-/*Explore Kids*/
-.explore_header {
-  text-align: center;
-}
-.kids_reading{
-max-width: 1000px;
-margin: auto;
-display: flex;
-}
-
-.kids_reading p {
-  padding-right: 250px;
-}
-
-.kids_reading_img {
-  width:250px;
-}
-
-.museum_img {
-  width: 500px;
-}
-
-.info_kids {
-  display: flex;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.exhibition_img {
-  width: 800px;
-}
-
-.toy_img {
-  width: 300px;
-}
-
-.teacher {
-  width: 1000px;
-  margin: auto;
-  display: flex;
-}
-
-.teacher_img {
-  width: 300px;
-}
 @media (min-width: 800px) {
   h1 {
     font-family: Gentium Book Basic;
