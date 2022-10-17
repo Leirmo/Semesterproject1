@@ -44,7 +44,7 @@ span {
 .cta {
   background: #fff;
   padding: 10px 0px;
-  margin: 10px 130px;
+  margin: 10px 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -306,7 +306,7 @@ textarea {
 
 .name_email {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0px;
 }
 
@@ -341,6 +341,11 @@ footer {
 }
 
 @media (min-width: 800px) {
+  .cta {
+    padding: 10px 0px;
+    margin: 10px 130px;
+  }
+
   h1 {
     font-family: Gentium Book Basic;
     font-size: 30px;
