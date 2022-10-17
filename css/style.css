@@ -178,6 +178,7 @@ nav ul li ul p {
   max-width: 240px;
   border-radius: 25px;
   color: #fff;
+  margin: 10px auto;
 }
 
 .info_content,
