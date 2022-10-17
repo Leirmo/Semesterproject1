@@ -269,6 +269,7 @@ nav ul li ul p {
 }
 
 .map {
+  max-width: 300px;
   border-radius: 10px;
 }
 
@@ -342,7 +343,7 @@ footer {
 
 @media (min-width: 800px) {
   .cta {
-    padding: 10px 0px;
+    padding: 10px 50px;
     margin: 10px 130px;
   }
 
