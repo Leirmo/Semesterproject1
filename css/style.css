@@ -312,9 +312,6 @@ textarea {
 
 /*Follow*/
 .follow {
-  width: 600px;
-  margin: auto;
-  padding: 50px;
 }
 
 .follow h3 {
@@ -323,9 +320,12 @@ textarea {
 }
 
 .follow_content {
-  display: flex;
-  justify-content: space-around;
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  row-gap: 30px;
+  width: 300px;
+  margin: auto;
+  padding: 40px 0px 0px 50px;
 }
 
 .follow a {
@@ -387,6 +387,12 @@ footer {
 
 .contact {
   flex-direction: row;
+}
+
+.follow_content {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
 }
 }
 
