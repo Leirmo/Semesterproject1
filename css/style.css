@@ -158,7 +158,7 @@ nav ul li ul p {
 .info_content,
 .involved_content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   max-width: 1000px;
   margin: 50px auto;
@@ -377,6 +377,7 @@ footer {
   .info_content,
 .involved_content {
   max-width: 1000px;
+  flex-direction: row;
 }
 
 .event_content {
@@ -389,6 +390,11 @@ footer {
 
 .event_content__section_2 {
   flex-direction: row-reverse;
+}
+
+.map {
+  max-width: 800px;
+  border-radius: 10px;
 }
 
 .contact {
