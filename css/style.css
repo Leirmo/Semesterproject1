@@ -10,22 +10,22 @@ body {
 
 h1 {
   font-family: Gentium Book Basic;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h2 {
   font-family: kameron;
-  font-size: 10px;
+  font-size: 25px;
 }
 
 h3 {
   font-family: kameron;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 p {
   font-family: martel;
-  font-size: 7px;
+  font-size: 16px;
 }
 
 html {
@@ -44,7 +44,7 @@ span {
 .cta {
   background: #fff;
   padding: 10px 0px;
-  margin: 10px 30px;
+  margin: 10px 50px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -229,7 +229,7 @@ nav ul li ul p {
 }
 
 .event_img {
-  width: 450px;
+  width: 300px;
   height: 300px;
   margin: 50px 0;
   background-size: cover;
@@ -281,8 +281,6 @@ fieldset {
   display: flex;
   align-items: center;
   border: none;
-  
-
 }
 
 fieldset div {
@@ -299,7 +297,7 @@ input,
 textarea {
   border: 1px solid;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 40px;
 }
 
 textarea {
@@ -352,61 +350,61 @@ footer {
     font-family: Gentium Book Basic;
     font-size: 30px;
   }
-  
+
   h2 {
     font-family: kameron;
     font-size: 25px;
   }
-  
+
   h3 {
     font-family: kameron;
     font-size: 16px;
   }
-  
+
   p {
     font-family: martel;
     font-size: 16px;
   }
   .welcome_content {
     flex-direction: row;
-  } 
+  }
 
   .welcome_img {
     width: 600px;
   }
 
   .info_content,
-.involved_content {
-  max-width: 1000px;
-  flex-direction: row;
-}
+  .involved_content {
+    max-width: 1000px;
+    flex-direction: row;
+  }
 
-.event_content {
-  max-width: 1000px;
-}
+  .event_content {
+    max-width: 1000px;
+  }
 
-.event_content__section_1{
-  flex-direction: row;
-}
+  .event_content__section_1 {
+    flex-direction: row;
+  }
 
-.event_content__section_2 {
-  flex-direction: row-reverse;
-}
+  .event_content__section_2 {
+    flex-direction: row-reverse;
+  }
 
-.map {
-  max-width: 800px;
-  border-radius: 10px;
-}
+  .map {
+    max-width: 800px;
+    border-radius: 10px;
+  }
 
-.contact {
-  flex-direction: row;
-}
+  .contact {
+    flex-direction: row;
+  }
 
-.follow_content {
-  width: 600px;
-  display: flex;
-  justify-content: space-between;
-}
+  .follow_content {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 600px) {
