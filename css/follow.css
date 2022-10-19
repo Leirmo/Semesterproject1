@@ -1,0 +1,25 @@
+.follow h3 {
+  grid-column: -1/1;
+  text-align: center;
+}
+
+.follow_content {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  row-gap: 30px;
+  width: 300px;
+  margin: auto;
+  padding: 40px 0px 0px 50px;
+}
+
+.follow a {
+  color: black;
+}
+
+@media (min-width: 800px) {
+  .follow_content {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

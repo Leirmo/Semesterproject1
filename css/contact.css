@@ -1,0 +1,102 @@
+/*Contact*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact_info div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #592e15;
+  border-radius: 25px;
+  color: #fff;
+  margin: 50px 0;
+  max-width: 350px;
+}
+
+.contact_info p {
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.contact_info a {
+  text-decoration: none;
+}
+
+.contact_info_map {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.map {
+  max-width: 330px;
+  border-radius: 10px;
+}
+
+fieldset {
+  background-color: #592e15;
+  border-radius: 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+fieldset div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+fieldset > * {
+  flex: 1;
+}
+
+input,
+textarea {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+textarea {
+  height: 120px;
+}
+
+.name_email {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+@media (min-width: 800px) {
+  .name_email {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+  }
+
+  input,
+  textarea {
+    padding: 10px 10px;
+  }
+
+  fieldset div {
+    height: 105px;
+  }
+
+  .contact {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+
+  .map {
+    max-width: 350px;
+    border-radius: 10px;
+  }
+}

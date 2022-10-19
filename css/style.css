@@ -56,7 +56,7 @@ span {
 header {
   display: flex;
   background-color: #1d1d1d;
-  height: 50px;
+  height: 60px;
   align-items: center;
 }
 
@@ -126,7 +126,11 @@ nav ul li ul a {
 }
 
 .hours {
-  width: 180px;
+  width: 240px;
+}
+
+nav ul li ul p {
+  width: 50px;
 }
 
 nav ul li ul a:hover {
@@ -143,208 +147,6 @@ nav ul li a {
 nav ul li ul p {
   color: #fff;
   width: 400px;
-}
-
-/*Homepage*/
-.welcome_content {
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  margin: 20px auto;
-}
-
-.welcome_content > * {
-  flex: 1;
-  margin: 20px;
-}
-
-.welcome_img {
-  width: 300px;
-}
-
-.info_content,
-.involved_content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: 50px auto;
-  text-align: left;
-}
-
-.info_content div,
-.involved_content div {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #592e15;
-  padding: 20px;
-  margin: 10px;
-  max-width: 240px;
-  border-radius: 25px;
-  color: #fff;
-  margin: 10px auto;
-}
-
-.info_content,
-.involved_content > * {
-  flex: 1;
-}
-
-.involved {
-  text-align: center;
-}
-
-.event h2 {
-  padding: 20px;
-}
-
-.event {
-  background: rgba(0, 0, 0, 0.7) url(/images/mavis-cw-164128.jpg);
-  background-size: cover;
-  background-blend-mode: darken;
-  color: #fff;
-  text-align: center;
-}
-
-.event_content {
-  max-width: 450px;
-  margin: auto;
-  opacity: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
-}
-
-.event_content div {
-  flex: 1;
-}
-
-.event_content__section_1 {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-}
-
-.event_content__section_2 {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-}
-
-.event_img {
-  width: 300px;
-  height: 300px;
-  margin: 50px 0;
-  background-size: cover;
-  background-position: center;
-}
-
-/*Contact*/
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 400px;
-  margin: auto;
-}
-
-.contact_info div {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #592e15;
-  border-radius: 25px;
-  color: #fff;
-  margin: 50px;
-}
-
-.contact_info p {
-  padding: 0px 20px;
-  text-decoration: none;
-}
-
-.contact_info a {
-  text-decoration: none;
-}
-
-.contact_info_map {
-  display: flex;
-  flex-direction: column;
-}
-
-.map {
-  max-width: 300px;
-  border-radius: 10px;
-}
-
-fieldset {
-  background-color: #592e15;
-  border-radius: 25px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  border: none;
-}
-
-fieldset div {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-fieldset > * {
-  flex: 1;
-}
-
-input,
-textarea {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 10px 40px;
-}
-
-textarea {
-  height: 120px;
-}
-
-.name_email {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-}
-
-/*Follow*/
-.follow {
-}
-
-.follow h3 {
-  grid-column: -1/1;
-  text-align: center;
-}
-
-.follow_content {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  row-gap: 30px;
-  width: 300px;
-  margin: auto;
-  padding: 40px 0px 0px 50px;
-}
-
-.follow a {
-  color: black;
-}
-
-footer {
-  background-color: #1d1d1d;
-  text-align: center;
-  color: #fff;
-  padding: 20px;
-  margin: 40px 0 0 0;
 }
 
 @media (min-width: 800px) {
@@ -406,12 +208,6 @@ footer {
 
   .contact {
     flex-direction: row;
-  }
-
-  .follow_content {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
   }
 }
 
