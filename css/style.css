@@ -81,6 +81,7 @@ nav,
 nav {
   position: absolute;
   top: 34px;
+  left: 0px;
 }
 
 nav a {
@@ -92,12 +93,14 @@ nav a {
 
 nav ul {
   display: block;
+  padding-left: 0px;
 }
 
 nav ul li {
   list-style: none;
   position: relative;
 }
+
 nav ul li:hover {
   text-decoration: underline;
 }
