@@ -23,14 +23,17 @@ body {
 
 .info_section {
   display: flex;
-  padding: 120px 0;
-  width: 1000px;
+  padding: 100px 50px;
+  width: 600px;
   margin: auto;
+  flex-direction: column;7
 }
 
 .info_section > * {
   flex: 1;
 }
+
+
 
 .info_section p {
   padding-right: 50px;
@@ -48,4 +51,11 @@ body {
 
 .follow a {
   color: #fff;
+}
+
+@media (min-width: 800px) {
+  .info_section {
+    flex-direction: row;
+    width: 1000px;
+  }
 }

@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: left;
 }
 
@@ -96,10 +96,30 @@
   background-position: center;
 }
 
-footer {
-  background-color: #1d1d1d;
-  text-align: center;
-  color: #fff;
-  padding: 20px;
-  margin: 40px 0 0 0;
+@media (min-width: 800px) {
+  .welcome_content {
+    flex-direction: row;
+  }
+
+  .welcome_img {
+    width: 600px;
+  }
+
+  .info_content,
+  .involved_content {
+    max-width: 1000px;
+    flex-direction: row;
+  }
+
+  .event_content {
+    max-width: 1000px;
+  }
+
+  .event_content__section_1 {
+    flex-direction: row;
+  }
+
+  .event_content__section_2 {
+    flex-direction: row-reverse;
+  }
 }

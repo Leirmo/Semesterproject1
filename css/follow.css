@@ -16,6 +16,14 @@
   color: black;
 }
 
+footer {
+  background-color: #1d1d1d;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  margin: 40px 0 0 0;
+}
+
 @media (min-width: 800px) {
   .follow_content {
     width: 600px;

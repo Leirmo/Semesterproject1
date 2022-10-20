@@ -41,17 +41,6 @@ span {
   margin: 10px;
 }
 
-.cta {
-  background: #fff;
-  padding: 10px 0px;
-  margin: 10px 50px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.cta:hover {
-  cursor: pointer;
-}
-
 /*Header*/
 header {
   display: flex;
@@ -149,69 +138,7 @@ nav ul li ul p {
   width: 400px;
 }
 
-@media (min-width: 800px) {
-  .cta {
-    padding: 10px 50px;
-    margin: 10px 130px;
-  }
-
-  h1 {
-    font-family: Gentium Book Basic;
-    font-size: 30px;
-  }
-
-  h2 {
-    font-family: kameron;
-    font-size: 25px;
-  }
-
-  h3 {
-    font-family: kameron;
-    font-size: 16px;
-  }
-
-  p {
-    font-family: martel;
-    font-size: 16px;
-  }
-
-  .welcome_content {
-    flex-direction: row;
-  }
-
-  .welcome_img {
-    width: 600px;
-  }
-
-  .info_content,
-  .involved_content {
-    max-width: 1000px;
-    flex-direction: row;
-  }
-
-  .event_content {
-    max-width: 1000px;
-  }
-
-  .event_content__section_1 {
-    flex-direction: row;
-  }
-
-  .event_content__section_2 {
-    flex-direction: row-reverse;
-  }
-
-  .map {
-    max-width: 800px;
-    border-radius: 10px;
-  }
-
-  .contact {
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 600px) {
+@media (min-width: 830px) {
   nav {
     display: block;
     position: static;
