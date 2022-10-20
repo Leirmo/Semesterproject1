@@ -58,6 +58,8 @@
   background: rgba(0, 0, 0, 0.7) url(/images/mavis-cw-164128.jpg);
   background-size: cover;
   background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #fff;
   text-align: center;
 }

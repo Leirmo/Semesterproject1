@@ -38,8 +38,7 @@ body {
 }
 
 .info_section p {
-  padding-right: 50px;
-  margin: 50px;
+  margin: 50px 20px;
   text-align: left;
 }
 
@@ -49,7 +48,7 @@ body {
 }
 
 .image-below {
-  width: 500px;
+  width: 70%;
   margin: 50px;
 }
 
@@ -61,5 +60,9 @@ body {
   .info_section {
     flex-direction: row;
     max-width: 1000px;
+  }
+
+  .image-below {
+    width: 500px;
   }
 }
