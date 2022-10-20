@@ -90,6 +90,10 @@
   align-items: center;
 }
 
+.info_content p {
+  margin: 0 50px;
+}
+
 .event_img {
   width: 300px;
   height: 300px;
