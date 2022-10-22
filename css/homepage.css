@@ -74,6 +74,10 @@
   text-align: left;
 }
 
+.event_content p {
+  margin: 20px;
+}
+
 .event_content div {
   flex: 1;
 }
@@ -88,10 +92,6 @@
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-}
-
-.info_content p {
-  margin: 0 50px;
 }
 
 .event_img {
