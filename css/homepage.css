@@ -8,17 +8,14 @@
   text-align: center;
 }
 
-.welcome_content > * {
-  flex: 1;
-  margin: 20px;
-}
-
 .welcome_content p {
   text-align: left;
+  width: 350px;
 }
 
 .welcome_img {
-  width: 300px;
+  max-width: 90%;
+  margin-top: 40px ;
 }
 
 .info_content,
@@ -27,7 +24,7 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 0px auto;
   text-align: left;
 }
 
@@ -62,26 +59,32 @@
 
 .event {
   background: rgba(0, 0, 0, 0.7) url(/images/mavis-cw-164128.jpg);
-  background-size: cover;
-  background-blend-mode: darken;
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: darken;
   color: #fff;
   text-align: center;
 }
 
 .event_content {
-  max-width: 450px;
+  max-width: 1000px;
   margin: auto;
   opacity: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.event_content h2 {
   text-align: left;
 }
 
 .event_content p {
   margin: 20px;
+  text-align: left;
 }
 
 .event_content div {
@@ -101,20 +104,18 @@
 }
 
 .event_img {
-  width: 300px;
-  height: 300px;
-  margin: 50px 0;
-  background-size: cover;
-  background-position: center;
+  max-width: 80%;
+
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   .welcome_content {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .welcome_img {
-    width: 600px;
+    max-width: 50%;
   }
 
   .welcome_content h1,
@@ -129,14 +130,24 @@
   }
 
   .event_content {
-    max-width: 1000px;
+    justify-content: space-between;
+  }
+
+  .event_img {
+    min-width: 500px;
+    margin: 20px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: right;
   }
 
   .event_content__section_1 {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .event_content__section_2 {
     flex-direction: row-reverse;
   }
+
 }
