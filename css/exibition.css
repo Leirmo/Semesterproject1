@@ -24,14 +24,15 @@ h1 {
   max-height: 250px;
 }
 
-.info_img_1 {
-  width: 90%;
-}
-
 .info_section {
-  padding: 10px 0px;
   max-width: 1000px;
   margin: auto;
+}
+
+.info_section p {
+  max-width: 390px;
+  margin: auto;
+  text-align: left;
 }
 
 .container {
@@ -39,37 +40,37 @@ h1 {
   grid-template-areas:
     "grid-1"
     "grid-2"
-    "grid-3"'
+    "grid-3"
     "grid-4";
   margin: 80px auto;
+  row-gap: 20px;
 }
 
-.text_1 {
+.info_space_1 {
   grid-area: grid-1;
 }
 
-.image_1 {
+.info_space_2 {
   grid-area: grid-2;
   text-align: center;
 }
 
+.info_space_3 {
+  grid-area: grid-3;
+  text-align: center;
+}
+
+.info_space_4 {
+  grid-area: grid-4;
+  text-align: center;
+}
+
+.info_img_1 {
+  max-width: 400px;
+}
+
 .text_2 {
   grid-area: grid-3;
-}
-
-.image_2 {
-  grid-area: grid-4;
-}
-
-.info_section p {
-  max-width: 390px;
-  margin: 10px 20px;
-  text-align: left;
-}
-
-.image-below {
-  width: 70%;
-  margin: 50px;
 }
 
 .follow a {
@@ -87,17 +88,26 @@ h1 {
     grid-template-areas:
       "grid-1 grid-2"
       "grid-3 grid-2"
-      "grid-4 grid-4";
+      "grid-4 grid-2";
+  }
+
+  .info_space_3 {
+    text-align: left;
+  }
+
+  .info_space_4 {
+    text-align: left;
+  }
+
+  .info_section p {
+    margin-left: 0;
+  }
+
+  .info_img_1 {
+    max-width: 80%;
   }
 
   .info_img_1 {
     padding-top: 20px;
-  }
-
-  .info_img_1 {
-  }
-
-  .image-below {
-    width: 500px;
   }
 }
