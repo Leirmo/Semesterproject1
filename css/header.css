@@ -1,114 +1,113 @@
 header {
-    display: flex;
-    background-color: #1d1d1d;
-    height: 60px;
-    align-items: center;
-  }
-  
-  .active {
-    text-decoration: underline;
-  }
-  
-  .hamburger-icon {
-    color: #fff;
-    padding-left: 20px;
-  }
-  
-  nav,
-  #menu-checkbox {
-    display: none;
-  }
-  
-  #menu-checkbox:checked ~ nav {
-    display: block;
-  }
-  
-  nav {
-    position: absolute;
-    top: 34px;
-    left: 0px;
-  }
-  
-  nav a {
-    display: block;
-    padding: 10px 20px;
-    color: rgb(255, 255, 255);
-    background-color: #1d1d1d;
-  }
-  
-  nav ul {
-    display: block;
-    padding-left: 0px;
-  }
-  
-  nav ul li {
-    list-style: none;
-    position: relative;
-  }
-  
-  nav ul li:hover {
-    text-decoration: underline;
-  }
-  
-  nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color: #1d1d1d;
-    padding: 10px 10px;
-    z-index: 5;
-  }
-  
-  nav ul li:hover ul {
-    display: block;
-  }
-  
-  nav ul li ul li {
-    width: 180px;
-  }
-  
-  nav ul li ul a {
-    padding: 10px 10px 10px 0;
-  }
-  
-  .hours {
-    width: 220px;
-  }
-  
-  nav ul li ul p {
-    width: 50px;
-  }
-  
-  nav ul li ul a:hover {
-    background-color: #592e15;
-    padding: 10px;
-  }
-  
-  nav ul li a {
-    display: block;
-    font-size: 15px;
-    text-decoration: none;
-  }
-  
-  nav ul li ul p {
-    color: #fff;
-    width: 200px;
-  }
+  display: flex;
+  background-color: #1d1d1d;
+  height: 60px;
+  align-items: center;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.hamburger-icon {
+  color: #fff;
+  padding-left: 20px;
+}
+
+nav,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+nav {
+  position: absolute;
+  top: 34px;
+  left: 0px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  background-color: #1d1d1d;
+}
+
+nav ul {
+  display: block;
+  padding-left: 0px;
+}
+
+nav ul li {
+  list-style: none;
+  position: relative;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #1d1d1d;
+  padding: 10px 10px;
+  z-index: 5;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 180px;
+}
+
+nav ul li ul a {
+  padding: 10px 10px 10px 0;
+}
+
+.hours {
+  width: 220px;
+}
+
+nav ul li ul p {
+  width: 50px;
+}
+
+nav ul li ul a:hover {
+  background-color: #592e15;
+  padding: 10px;
+}
+
+nav ul li a {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+nav ul li ul p {
+  color: #fff;
+  width: 200px;
+}
 @media (min-width: 830px) {
-    nav {
-      display: block;
-      position: static;
-    }
-  
-    .hamburger-icon {
-      display: none;
-    }
-  
-    nav a {
-      display: inline-block;
-    }
-  
-    nav ul li {
-      float: left;
-    }
+  nav {
+    display: block;
+    position: static;
   }
-  
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+
+  nav ul li {
+    float: left;
+  }
+}
