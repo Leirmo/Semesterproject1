@@ -10,8 +10,8 @@
 
 .welcome_content p {
   text-align: left;
-  width: 350px;
-  padding: 0 30px;
+  max-width: 350px;
+  margin: 0 20px;
 }
 
 .welcome_img {
@@ -37,7 +37,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #592e15;
-  padding: 20px;
+  padding: 40px;
   margin: 10px;
   max-width: 240px;
   border-radius: 25px;
