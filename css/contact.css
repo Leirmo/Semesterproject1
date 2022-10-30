@@ -33,8 +33,7 @@
 }
 
 .map {
-  max-width: 330px;
-  min-width: 330px;
+  width: 330px;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -83,6 +82,7 @@ textarea {
 
 .cta:hover {
   cursor: pointer;
+  background-color: rgb(204, 202, 202);
 }
 
 @media (min-width: 800px) {
@@ -111,7 +111,6 @@ textarea {
   }
 
   .map {
-    max-width: 350px;
-    border-radius: 10px;
+    width: 350px;
   }
 }
