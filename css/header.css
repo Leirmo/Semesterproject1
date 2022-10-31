@@ -47,6 +47,7 @@ nav ul li {
 }
 
 nav ul li:hover {
+  background-color: #592e15;
   text-decoration: underline;
 }
 
@@ -75,7 +76,7 @@ nav ul li ul a {
 }
 
 nav ul li ul p {
-  width: 50px;
+  width: 500px;
 }
 
 nav ul li ul a:hover {
@@ -109,5 +110,9 @@ nav ul li ul p {
 
   nav ul li {
     float: left;
+  }
+
+  nav ul li ul p {
+    width: 400px;
   }
 }
