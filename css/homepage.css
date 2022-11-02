@@ -130,6 +130,12 @@
   .involved_content {
     max-width: 1000px;
     flex-direction: row;
+    padding: 20px;
+  }
+
+  .info_content div,
+  .involved_content div {
+    padding: 15px;
   }
 
   .event_content {

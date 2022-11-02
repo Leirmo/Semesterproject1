@@ -21,6 +21,8 @@ nav,
 
 #menu-checkbox:checked ~ nav {
   display: block;
+  width: 100%;
+  text-align: center;
 }
 
 nav {
@@ -38,29 +40,29 @@ nav a {
 
 nav ul {
   display: block;
-  padding-left: 0px;
 }
 
 nav ul li {
-  list-style: none;
   position: relative;
+  list-style: none;
 }
 
-nav ul li:hover {
-  background-color: #592e15;
+nav ul li a:hover {
   text-decoration: underline;
+  background-color: #592e15;
 }
 
 nav ul li ul {
   display: none;
   position: absolute;
   background-color: #1d1d1d;
-  padding: 10px 10px;
+  padding: 0px 10px;
   z-index: 1;
 }
 
 nav ul li:hover ul {
   display: block;
+  width: 100%;
 }
 
 nav ul li ul li {
@@ -93,6 +95,7 @@ nav ul li a {
 nav ul li ul p {
   color: #fff;
   width: 200px;
+  text-align: left;
 }
 @media (min-width: 830px) {
   nav {

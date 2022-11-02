@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.follow {
+  padding-top: 190px;
+}
+
 .follow_content {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -16,9 +20,13 @@
   color: rgb(255, 255, 255);
 }
 
+.follow a:hover {
+  color: #592e15;
+}
+
 footer {
   background-color: #1d1d1d;
-
+  text-align: center;
   color: #fff;
   padding: 20px 0;
   margin: 40px 0 0 0;
@@ -31,8 +39,6 @@ footer {
     justify-content: space-between;
   }
   footer {
-    text-align: center;
-    align-items: center;
     width: 100%;
   }
 }

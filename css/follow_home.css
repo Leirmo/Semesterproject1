@@ -16,6 +16,10 @@
   color: black;
 }
 
+.follow a:hover {
+  color: #592e15;
+}
+
 footer {
   background-color: #1d1d1d;
   text-align: center;
