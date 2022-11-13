@@ -1,8 +1,9 @@
 header {
   display: flex;
-  background-color: #1d1d1d;
   height: 60px;
   align-items: center;
+  background-color: #1d1d1d;
+  color: #fff;
 }
 
 .active {
@@ -10,7 +11,6 @@ header {
 }
 
 .hamburger-icon {
-  color: #fff;
   padding-left: 20px;
 }
 
@@ -28,23 +28,24 @@ nav,
 nav {
   position: absolute;
   top: 34px;
-  left: 0px;
 }
 
 nav a {
   display: block;
+  text-decoration: none;
   padding: 10px 20px;
-  color: rgb(255, 255, 255);
-  background-color: #1d1d1d;
 }
 
 nav ul {
   display: block;
+  background-color: #1d1d1d;
+  width: 100%;
+  padding-left: 0;
+  list-style: none;
 }
 
 nav ul li {
   position: relative;
-  list-style: none;
 }
 
 nav ul li a:hover {
@@ -54,10 +55,7 @@ nav ul li a:hover {
 
 nav ul li ul {
   display: none;
-  position: absolute;
-  background-color: #1d1d1d;
-  padding: 0px 10px;
-  z-index: 1;
+  position: relative;
 }
 
 nav ul li:hover ul {
