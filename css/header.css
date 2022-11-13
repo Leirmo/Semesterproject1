@@ -63,46 +63,14 @@ nav ul li:hover ul {
   width: 100%;
 }
 
-nav ul li ul li {
-  width: 180px;
-}
-
-nav ul li ul a {
-  padding: 10px 10px 10px 0;
-}
-
-.hours {
-  width: 220px;
-}
-
-nav ul li ul p {
-  width: 500px;
-}
-
-nav ul li ul a:hover {
-  background-color: #592e15;
-  padding: 10px;
-}
-
-nav ul li a {
-  display: block;
-  font-size: 15px;
-  text-decoration: none;
-}
-
-nav ul li ul p {
-  color: #fff;
-  width: 200px;
-  text-align: left;
-}
 @media (min-width: 830px) {
+  .hamburger-icon {
+    display: none;
+  }
+
   nav {
     display: block;
     position: static;
-  }
-
-  .hamburger-icon {
-    display: none;
   }
 
   nav a {
@@ -111,6 +79,21 @@ nav ul li ul p {
 
   nav ul li {
     float: left;
+  }
+
+  nav ul li ul {
+    padding: 30px;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+
+  nav ul li ul li a {
+    width: 160px;
+    padding-left: 0;
   }
 
   nav ul li ul p {
