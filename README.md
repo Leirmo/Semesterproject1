@@ -38,7 +38,7 @@ This repo is just to copy and clone to the github desktop app and use as desired
 
     Clone the repo:
 
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+[git clone git@github.com:NoroffFEU/portfolio-1-example.git](https://github.com/Leirmo/Semesterproject1.git)
 
     Install the dependencies:
 
