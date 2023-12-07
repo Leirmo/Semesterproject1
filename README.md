@@ -34,7 +34,7 @@ You can list a the tech stack that you've used over here
 Getting Started
 Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+This repo is just to copy and clone to the github desktop app and use as desired.
 
     Clone the repo:
 
