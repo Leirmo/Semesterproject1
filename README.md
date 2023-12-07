@@ -7,7 +7,16 @@ Community Science Museum
 The purpose of this project was to practice using the skills we have been trained in. 
 This is a one-semester placement where we practice Design, HTML, CSS and WCT, among other things.
 
-Add a more detailed description of what your project entails and set out to do.
+Here I have created a website called community science museum. which is supposed to be a fictional website for a museum in my city.
+
+The site will have a target group of children between 7-15 years.
+the page should be informative and attractive
+
+the project must contain 4-6 pages.
+html should be semantic.
+css must follow dry principle. etc
+
+we have been assigned text and images that we can choose and use
 
 You can add some bullet points if you'd like to:
 
