@@ -51,10 +51,6 @@ Please contact me, at the moment I am at:
 
 [Discord](Daniel Leirmo - Jan22 PT#4841)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
 ## Acknowledgments
 
 Thanks to the teachers of Noroff and my fellow students
